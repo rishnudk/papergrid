@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    border: 0px;
+    overflow-x: hidden;
+/* }
+.navbar-toggler {
+    background-color: rgb(217, 28, 28); /* Optional: Remove the button's border */
+} */
+
+/* .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+} */
+
+.navbar-dark .navbar-toggler-icon,
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 16 16"> <path d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/> </svg>');
+}
+
+
+
+.collapse li {
+    padding-inline-start: 5px;
+    
+}
+
+  .navbar-nav .nav-item {
+    margin-right: 15px;
+    margin-left: 10px;
+  }
+
+
+
+
+  
+
+.row {
+    /* overflow: hidden; */
+}
+
+/* .header {
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+} */
+.heading {
+    /* padding-top: 15px; */
+    /* font-size: 15px; */
+
+}
+
+.h-text {
+    letter-spacing: 2px;
+}
+.footer-content {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.policies li {
+    display: inline-flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Your CSS */
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) {
+    /* Your CSS */
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) {
+    /* Your CSS */
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Your CSS */
+}
+
+/* Extra large devices (extra large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Your CSS */
+}
+
+/* Extra extra large devices (very large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    /* Your CSS */
+}
